@@ -15,8 +15,9 @@ Things that RocksDB inherits from Leveldb:
 2. Gets/Puts/Scans of keys
 3. Forward and Reverse iteration
 
-## [RocksDB Features that are not in LevelDB](https://github.com/facebook/rocksdb/wiki/Features-Not-in-LevelDB):
-# Performance
+# [RocksDB Features that are not in LevelDB](https://github.com/facebook/rocksdb/wiki/Features-Not-in-LevelDB):
+
+## Performance
 Multithread compaction
 Multithread memtable inserts
 Reduced DB mutex holding
@@ -29,7 +30,7 @@ Improved Iter::Prev() performance
 Fewer comparator calls during SkipList searches
 Allocate memtable memory using huge page.
 
-# Features
+## Features
 Column Families
 Transactions and WriteBatchWithIndex
 Backup and Checkpoints
@@ -44,14 +45,14 @@ Single delete
 Delete files in range
 Pin iterator key/value
 
-# Alternative Data Structures And Formats
+## Alternative Data Structures And Formats
 Plain Table format for memory-only use cases
 Vector-based and hash-based memtable format
 Clock-based cache (coming soon)
 Pluggable information log
 Annotate transaction log write with blob (for replication)
 
-# Tunability
+## Tunability
 Rate limiting
 Tunable Slowdown and Stop threshold
 Option to keep all files open
@@ -64,7 +65,7 @@ Compression Dictionary
 Checksum Type: xxhash
 Different level size multiplier and compression type for each level.
 
-# Manageability
+## Manageability
 Statistics
 Thread-local profiling
 More commands in command-line tools
