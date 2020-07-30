@@ -18,4 +18,7 @@ Things that RocksDB inherits from Leveldb:
 ## References
 
 [RocksDB: A High Performance Embedded Key-Value Store for Flash Storage - Data@Scale](https://www.youtube.com/watch?v=V_C-T5S-w8g)
+
 [Benchmarking the leveldb family](http://smalldatum.blogspot.com/2014/07/benchmarking-leveldb-family.html)
+
+[Comparing LevelDB and RocksDB, take 2](http://smalldatum.blogspot.com/2015/04/comparing-leveldb-and-rocksdb-take-2.html)
